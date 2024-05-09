@@ -2,8 +2,11 @@
     margin: 0;
     padding: 0;
 }
-.cabeçalho{
-    background-color: #921212;
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.cabecalho {
+    background-color: #aa0505;
     color: white;
     display: flex;
     justify-content: space-around;
@@ -11,11 +14,45 @@
     padding: 24px 0;
 }
 
-.cabeçalho-imagem{
-width: 20%;
+.cabecalho-imagem{
+    width: 10%;
 }
-.cabeçalho-lista-item{
+
+.cabecalho-lista-item{
     display: inline-block;
     margin: 0 16px;
-    font-size: 24px;
+    font-size: 16px;
 }
+
+.escola-imagem{
+    width: 25%;
+}
+
+.escola{
+    background-image: linear-gradient(#aa0505,#944612);
+    color:rgb(253, 253, 253);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+.rodape{
+    background-color: rgb(207, 17, 17);
+    text-align: center;
+}
+
+.rodape-imagem{
+    height: 40px;
+    padding: 11px 0;
+}
+
+.logo{
+    width: 19%;
+}
+
+footer{
+    background-color: #c25124;
+    color: #ffffff;
+}
+   
+
